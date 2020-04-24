@@ -155,7 +155,7 @@ class BinarySearchTree:
     def post_order_dft(self, node):
         pass
 
-
+"""
 test = BinarySearchTree(4)
 test.insert(5)
 test.insert(3)
@@ -164,3 +164,4 @@ test.insert(6)
 
 print(test.contains(10))
 print(test.get_max())
+"""
