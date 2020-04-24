@@ -1,4 +1,6 @@
 import time
+# Student should be able to construct a binary search tree class
+from binary_search_tree import BinarySearchTree
 
 start_time = time.time()
 
@@ -13,6 +15,7 @@ f.close()
 duplicates = []  # Return the list of duplicates in this data structure
 
 # Replace the nested for loops below with your improvements
+# O(n^2) due to loop in loop +/- delta in Nss
 for name_1 in names_1:
     for name_2 in names_2:
         if name_1 == name_2:
